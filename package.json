@@ -1,0 +1,40 @@
+{
+  "name": "@creadev.org/escrow",
+  "version": "0.3.1",
+  "type": "module",
+  "description": "Transactional escrow, usage handling, budget awareness, token transparency",
+  "keywords": [
+    "escrow",
+    "budget",
+    "quota",
+    "usage"
+  ],
+  "author": "dhaupin",
+  "repository": "https://github.com/dhaupin/creadev-escrow",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.6.1"
+  },
+  "dependencies": {
+    "@creadev.org/qos": "^0.3.1"
+  },
+  "files": [
+    "dist"
+  ]
+}

@@ -34,3 +34,4 @@ await release('user-id', 5);
 ## License
 
 MIT
+trigger
